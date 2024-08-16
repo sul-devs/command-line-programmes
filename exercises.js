@@ -1,11 +1,10 @@
-// Exercise 1
-function isDivisible(n, m) {
-  if (n % m === 0) {
-    return true;
+// Exercise 2
+function parity(n) {
+  if (n % 2 === 0) {
+    return "even";
   } else {
-    return false;
+    return "odd";
   }
 }
 
-console.log(isDivisible(25, 5));
-console.log(isDivisible(16, 7));
+console.log(parity(2), parity(3));
